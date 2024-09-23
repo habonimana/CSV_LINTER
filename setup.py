@@ -4,7 +4,7 @@ setup(
     name="demo-hformat",
     version="0.0.1",
     description="Reformats files to stdout",
-    install_requires = ["click", "colorama", "pandas"],
+    install_requires = ["click", "pandas"],
     entry_points="""
     [console_scripts]
     hformat=hformat.main:main
