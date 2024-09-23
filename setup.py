@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="hformat",
+    name="demo-hformat",
     version="0.0.1",
     description="Reformats files to stdout",
     install_requires = ["click", "pandas"],
@@ -12,4 +12,6 @@ setup(
     author="Herve Habonimana",
     author_email="habonimanah@gmail.com",
     packages=find_packages(),
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
 )
