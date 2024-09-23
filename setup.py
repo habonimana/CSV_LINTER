@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="demo-hformat",
-    version="0.0.1",
+    version="0.0.3",
     description="Reformats files to stdout",
     install_requires = ["click", "pandas"],
     entry_points="""
