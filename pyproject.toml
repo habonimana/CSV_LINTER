@@ -1,7 +1,14 @@
-[build-system]
-requires = ['setuptools', 'wheel']
+[project]
+name = "hformat"
+requires-python = ">3.9"
+authors = [
+    {
+        name = "Herve Habonimana", email = "habonimanah@gmail.com"
+    },
+]
 
-build-backend = "setuptools.build_meta"
-
-[options.entry-points]
-console_scripts = ["hformat = hformat.main:main"]
+dependencies = [
+    "click",
+    "colorama",
+    "pandas"
+]
